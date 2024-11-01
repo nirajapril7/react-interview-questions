@@ -33,6 +33,7 @@ export default function Quiz() {
                <QuestionList question={questions[currentQuestionIndex].question}
                 options={questions[currentQuestionIndex].options}
                 handleOptionClick={handleOptionClick}
+                currentAnswer={currentAnswer}
                /> 
                <button disabled={currentAnswer === null} className={currentAnswer === null?'btn-disable':'btn'}  onClick={handleNextQuestion}>Next Question</button>
             </div> : <div> Your score is {score} </div> }
