@@ -6,4 +6,6 @@ npm run create@latest
 
 React-Vite-Quiz
 
-![Uploading ScreenRecording2024-11-01at10.49.02PM-ezgif.com-video-to-gif-converter.gif…]()
+
+https://github.com/user-attachments/assets/60a86239-52be-4131-9abf-56f7526c2663
+
