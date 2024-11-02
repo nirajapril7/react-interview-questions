@@ -7,5 +7,7 @@ npm run create@latest
 React-Vite-Quiz
 
 
-https://github.com/user-attachments/assets/60a86239-52be-4131-9abf-56f7526c2663
+![ScreenRecording2024-11-01at10 49 02PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e4f6a4da-2386-4c8b-a33f-fbf3847c1403)
 
+React-vite-Stepper
+![ScreenRecording2024-11-02at1 06 57PM-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/dcb85671-3ae1-4904-b212-b9cb8b23645f)
