@@ -18,7 +18,6 @@ export default function TicTacToe() {
         if(winnerCombination){
             setWinner(newBoard[winnerCombination[0]])
         }
-        console.log(winnerCombination)
     }
     const checkWinner = (newBoard) =>{
         const combination = [
@@ -39,6 +38,11 @@ export default function TicTacToe() {
         }
         return null;
     }
+    const reset = () => {
+        setBoard(Array(9).fill(null));
+        setWinner(null);
+    }
+
     return(
         <>
         <div className="board"> 
@@ -57,6 +61,7 @@ export default function TicTacToe() {
                 {renderSquare(7)}
                 {renderSquare(8)}
             </div>
+            {winner && <div> <button onClick={reset}> Reset </button> </div>}            
         </div>
         {winner && <div>{winner} is the winner of this game</div>}
         </>
