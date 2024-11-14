@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  height: 8vh;
+}
+.navbar div{
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+.navbar a{
+  text-decoration: none;
+  color: inherit;
+}
